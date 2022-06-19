@@ -261,8 +261,7 @@ public class CutsceneMedieval extends ScreenAdapter implements InputProcessor {
 	}
 
 	@Override
-	public boolean scrolled(int amount) {
-		// TODO Auto-generated method stub
+	public boolean scrolled (float v, float v1) {
 		return false;
 	}
 

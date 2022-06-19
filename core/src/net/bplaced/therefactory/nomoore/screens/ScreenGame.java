@@ -925,7 +925,7 @@ public class ScreenGame extends ScreenAdapter implements GestureListener {
         super.show();
         if (paintedBlack && paintedRed && paintedWhite) {
             musicCreepy.play();
-            panSpeedMultiplicator = .0001f;
+//            panSpeedMultiplicator = .0001f; // Probably meant to be an effect, but I just found it frustrating and thought it was a glitch.
         } else {
             if (!musicMainTheme.isPlaying())
                 musicMainTheme.play();

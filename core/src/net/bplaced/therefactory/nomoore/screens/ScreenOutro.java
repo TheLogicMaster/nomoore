@@ -169,7 +169,7 @@ public class ScreenOutro extends ScreenAdapter implements InputProcessor {
     }
 
     @Override
-    public boolean scrolled(int amount) {
+    public boolean scrolled (float v, float v1) {
         return false;
     }
 }

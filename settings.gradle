@@ -17,4 +17,4 @@
  * along with nO mooRe.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-include 'desktop', 'android', 'html', 'core'
+include 'desktop', /*'android', 'html',*/ 'core', 'switch'
